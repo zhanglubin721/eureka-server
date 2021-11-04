@@ -6,7 +6,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka2.com:9092/eureka/,http://eureka3.com:9093/eureka/
+      defaultZone: http://localhost:9092/eureka/,http://localhost:9093/eureka/
   instance:
-    hostname: eureka1.com
+    hostname: localhost:9091
     instance-id: eureka1
